@@ -1,0 +1,14 @@
+h2 {
+font-family: Arial;
+}
+
+li {
+    font-style: italic;
+    list-style-type: "\1F44D";
+}
+/* changing marker type */
+
+article {
+    width: fit-content;
+    /*margin: 10px 50px 20px;*/    
+}
