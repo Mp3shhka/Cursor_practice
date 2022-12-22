@@ -1,5 +1,10 @@
+h1 {
+    text-align: center;
+}
+
 h2 {
 font-family: Arial;
+text-align: center;
 }
 
 li {
@@ -9,6 +14,13 @@ li {
 /* changing marker type */
 
 article {
+    font-size: 150%;
+    text-align: justify;
+    /*align-items: center;*/
     width: fit-content;
     /*margin: 10px 50px 20px;*/    
+}
+
+p {
+    align-items: stretch;
 }
