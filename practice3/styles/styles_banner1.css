@@ -1,0 +1,51 @@
+#accept_all_or_go_away_1 {
+    background-color: #0B2239; /* background-color і background поводять себе однаково, чи є різниця?*/
+    height: 72px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 13px;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    line-height: 20px;
+}
+
+#accept_all_or_go_away_1 > a {
+    color: #4AD295;
+    font-weight: 600;
+    font-size: 12px;
+    margin-inline: 10px;
+}
+
+#accept_all_or_go_away_1 > button {
+    background: #4AD295;
+    font-weight: 600;
+    color: white;
+    font-size: 12px;
+    width: 130px;
+    height: 36px;
+    border-radius: 2px;
+}
+
+/*basic button clicking pattern start*/
+#accept_all_or_go_away_1 > button:active {
+    background: #349368;
+}
+
+#accept_all_or_go_away_1 > button:visited {
+    background: #4AD295;
+}
+
+#accept_all_or_go_away_1 > button:link {
+    background: #4AD295;
+}
+/*basic button clicking pattern end*/
+
+#accept_all_or_go_away_1 > p {
+    margin-inline: 30px;
+}

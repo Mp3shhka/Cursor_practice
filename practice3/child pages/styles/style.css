@@ -1,0 +1,8 @@
+img {
+    width: 600px;
+}
+
+body {
+    background: url(https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg?w=1060&t=st=1672323610~exp=1672324210~hmac=b0c694dec28685f35bbe4f9d27e10f566652d028611bd054b321802cd86ccacd);
+    background-size: cover;
+}

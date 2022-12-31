@@ -1,0 +1,119 @@
+/* working with classes to optimize - failed, !!!need help/recommendations about efficiency!!!*/
+.inter {
+    font-family: "Inter", sans-serif;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.avenir-lt-std {
+font-family: 'Avenir LT Std', sans-serif;
+}
+
+.sf-pro-display {
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.whitefont {
+    color: white;
+}
+
+.whitebcg {
+    background-color: white;
+}
+
+.px16 {
+    font-size: 16px;
+}
+
+.px14 {
+    font-size: 14px;
+}
+
+.px12 {
+    font-size: 12px;
+}
+
+.px13 {
+    font-size: 13px;
+}
+
+.weight400 {
+    font-weight: 400;
+}
+
+.weight500 {
+    font-weight: 500;
+}
+/* end of work with classes */
+
+/*banner_1*/
+#accept_all_or_go_away_1 {
+    background-color: #0B2239; /* background-color і background поводять себе однаково, чи є різниця?*/
+    height: 72px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#accept_all_or_go_away_1 > button {
+    background: #4AD295;
+    height: 36px;
+    width: 130px;
+    margin: auto 5%;
+}
+
+#accept_all_or_go_away_1 > a {
+    color: #4AD295;
+    display: flex;
+}
+
+    /*basic button clicking pattern start*/
+    #accept_all_or_go_away_1 > button:active {
+        background: #349368;
+    }
+
+    #accept_all_or_go_away_1 > button:visited {
+        background: #4AD295;
+    }
+
+    #accept_all_or_go_away_1 > button:link {
+        background: #4AD295;
+    }
+    /*basic button clicking pattern end*/
+
+/*banner_2*/
+#we_are_using_cookies_your_opinion_does_not_matter_2 {
+    background-color: #2B2627;
+    height: 52px;
+    width: 100vw;
+    margin: 5% 0;
+    text-align: center;
+    justify-content: center;
+}
+
+#huge_cookies_7 > h3 {
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    color: #15295A;
+    
+}
+
+#huge_cookies_7 > button {
+    font-weight: 700;
+    background-color: #4A7EFF;
+}
+
+/*#cookie_notice_5,cookie_settings_6,huge_cookies_7,noname_agree_banner_8 > p { 
+чи можна одночасно звертатись до кількох ідентифікаторів? 
+    font-weight: 400;
+}*/
+
+#accept_all_or_go_away_1 > a,p,button {
+    display: inline-block;
+    font-weight: 600;
+}

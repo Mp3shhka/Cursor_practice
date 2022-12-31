@@ -1,0 +1,71 @@
+#allow_decline_3 {
+    background-color: white; /* background-color і background поводять себе однаково, чи є різниця?*/
+    height: fit-content; /*72 px, figure how to "hug"*/
+    width: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #0D0C22;
+    font-size: 14px;
+    margin: 10px;
+    line-height: 20px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#allow_decline_3 > a {
+    color: #EA4C89;
+    display: inline-block;
+}
+
+#allow_decline_3 > button {
+    font-weight: 500;
+    color: black;
+    font-size: 12px;
+    height: 28px;
+    border-radius: 10px;
+    border: none;
+}
+
+/*basic button clicking pattern start
+#allow_decline_3 > #allow > button:active {
+    background: #349368;
+}
+
+#allow_decline_3 > #allow > button:visited {
+    background: #4AD295;
+}
+
+#allow_decline_3 > #allow > button:link {
+    background: #4AD295;
+}
+basic button clicking pattern end*/
+
+.allowbtn:active {
+    background-color: #4c373f;
+}
+
+.allowbtn:visited {
+    background-color: #EA4C89;
+}
+
+.allowbtn:link {
+    background-color: #EA4C89;
+}
+
+#allow_decline_3 > #decline {
+    background: rgba(13, 12, 34, 0.05);
+    width: 63px;
+}
+
+#allow_decline_3 > img {
+    margin-inline: 10px;
+}
+
+#allow_decline_3 > p {
+    margin-left: 5%;
+}

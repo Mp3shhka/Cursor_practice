@@ -1,0 +1,19 @@
+body {
+    background-color: blueviolet;
+    background: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000);
+    background: url(../images/3d_nature_phantasmagoria_fantasy_flowers_forest_trees_flowers_house_bridge_2500x1800.jpg);
+    background-size: cover;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(227, 15, 15);
+    border: 5px dashed aquamarine;
+    border-bottom: none;
+    font-size: 42px;
+}
+
+p {
+    font-size: 1em;
+}

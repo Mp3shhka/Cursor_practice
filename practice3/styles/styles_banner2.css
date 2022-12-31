@@ -1,0 +1,23 @@
+#we_are_using_cookies_your_opinion_does_not_matter_2 {
+    background-color: #2B2627; /* background-color і background поводять себе однаково, чи є різниця?*/
+    height: 52px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 10px;
+}
+
+#we_are_using_cookies_your_opinion_does_not_matter_2 > p {
+    margin-inline: 5px;
+}
+
+#we_are_using_cookies_your_opinion_does_not_matter_2 > a {
+    color: white;
+    margin-right: 5px;
+}
